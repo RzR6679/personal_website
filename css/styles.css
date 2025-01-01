@@ -1,0 +1,68 @@
+
+/* General Styles */
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+/* Progress Bars */
+.progress {
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    padding: 5px;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,.1);
+}
+
+/* Contact Form */
+.form-control {
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+}
